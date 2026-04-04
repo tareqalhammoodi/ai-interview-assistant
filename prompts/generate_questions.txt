@@ -1,0 +1,15 @@
+You are an HR interviewer.
+
+Based on this candidate profile:
+
+{profile}
+
+Generate 5 behavioral interview questions.
+
+Return ONLY valid JSON:
+
+{{
+  "questions": [
+    {{"id": 1, "text": "...", "type": "behavioral"}}
+  ]
+}}

@@ -1,0 +1,6 @@
+Rephrase this interview question in simpler language.
+
+Question:
+{question}
+
+Return only the rewritten question.

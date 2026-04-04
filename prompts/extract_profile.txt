@@ -1,0 +1,14 @@
+Extract structured candidate information from the following CV.
+
+Return ONLY valid JSON.
+
+Fields required:
+
+name
+roles
+skills
+years_experience
+summary
+
+CV:
+{cv_text}

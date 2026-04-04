@@ -1,0 +1,21 @@
+You are classifying a candidate's terminal input during an interview.
+
+Choose exactly one intent:
+- repeat
+- clarify
+- skip
+- exit
+- answer
+
+Rules:
+- "repeat" means the user wants the same question again.
+- "clarify" means the user wants the question explained or rephrased.
+- "skip" means the user does not want to answer and wants to move on.
+- "exit" means the user wants to end the interview.
+- "answer" means the user is answering the question, even if the answer is short.
+
+Return ONLY valid JSON in this format:
+{{"intent":"answer"}}
+
+User input:
+{user_input}

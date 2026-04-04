@@ -1,0 +1,48 @@
+Tareq Alhammoodi
+Full Stack and AI Developer / UI/UX Designer
+
+Phone: +90 123 456 78 90
+Location: Izmir, Turkiye
+Email: hamtareq@yahoo.com
+
+Summary:
+Software developer with 3+ years of experience building production web and mobile applications using Flutter, Swift, React, Next.js, and React Native. Experienced in integrating LLM-based AI features into real-world products, with multiple applications published on the App Store and Google Play. Also experienced in backend services and RESTful APIs using Python, Node.js, and .NET. Strong focus on scalable architecture, performance, and clean UI implementation. Comfortable working in agile and remote teams and owning features from design to deployment.
+
+Experience:
+- Frontend Developer at Marsala Software, Inc. (Jul 2025 - Feb 2026)
+  Led frontend architecture and implementation for production platforms including Tatilebibilet and MEXT Life Cycle Assessment Software.
+  Developed a reusable component library using Next.js and Ant Design.
+  Integrated RESTful APIs, improved client-side state management, and optimized rendering performance.
+- Frontend Developer Intern at Marsala Software, Inc. (Mar 2025 - Jun 2025)
+  Contributed to frontend development of the IEU Management System using React and Next.js.
+  Assisted with debugging, testing, optimization, and feature development.
+- Flutter Developer Intern at Squamobi Technologies, Inc. (Mar 2024 - Oct 2024)
+  Led development of frontend modules for AI-powered mobile applications such as RizzMate and OmniChat using Flutter.
+  Designed and improved UI/UX for mobile products including DailyPal and parts of uShine using Figma.
+  Integrated AI services for image generation, text analysis, and social media data features.
+  Published apps to both Google Play and the Apple App Store.
+- Independent Mobile Developer at LagashLab, Ltd. (2016 - Present)
+  Designed and developed cross-platform utility mobile applications and games including NetTest, IEUCalendar, and Sukara using Flutter and native iOS technologies.
+  Achieved 50,000+ cumulative downloads and maintained a 4.5+ average rating across the App Store and Google Play.
+  Managed the full product lifecycle from UI/UX design to deployment, including authentication, backend integrations, and data persistence using Firebase and CoreData.
+
+Education:
+Izmir University of Economics
+Bachelor's degree in Software Engineering (Jul 2021 - Jan 2026)
+
+Projects:
+- HAAN (Healthcare Assistant and AI Navigator) - 2025
+  Built a web-based AI-powered healthcare navigation assistant using LLMs and RAG with source-referenced medical knowledge retrieval.
+  Designed the interface for accessibility across age groups.
+  Published an academic paper at the TIPTEKNO 2025 Conference.
+- Post-Disaster Logistic Navigation System - 2024
+  Developed an AI-based post-disaster navigation system using YOLOv8 and a genetic algorithm to optimize emergency logistics.
+
+Languages:
+English - Bilingual Proficiency
+Arabic - Native
+Turkish - Limited Working Proficiency
+German - Elementary Proficiency
+
+Skills:
+React, React Native, Flutter, Dart, JavaScript, TypeScript, Next.js, HTML5, CSS3, Python, Node.js, .NET, REST APIs, API integration, JSON, Firebase, authentication flows, LLM integration, RAG systems, YOLOv8, PostgreSQL, MongoDB, MySQL, SQLite, vector databases, Git, GitHub, Xcode, Android Studio, Postman, Trello, Agile/Scrum, Ant Design, Figma, Sketch, wireframing, prototyping, App Store deployment, Play Store deployment
