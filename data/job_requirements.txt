@@ -1,0 +1,16 @@
+Role: Full Stack Developer
+
+We need a developer who can build real production features across frontend and backend systems.
+
+Must-have requirements:
+- React
+- Next.js
+- TypeScript or JavaScript
+- Python
+- REST API integration
+- Experience with AI or LLM integration
+- Around 2 years of relevant experience
+
+Nice-to-have requirements:
+- React Native or Flutter
+- PostgreSQL

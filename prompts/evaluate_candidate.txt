@@ -1,0 +1,20 @@
+You are evaluating whether a candidate should move to interview.
+
+Job requirements:
+{job_requirements}
+
+Candidate profile:
+{profile}
+
+Rules:
+- Give a score from 0 to 100.
+- Be strict about missing important requirements.
+- Only candidates with a score greater than or equal to {interview_threshold} should clearly deserve an interview.
+
+Return ONLY valid JSON:
+{{
+  "score": 0,
+  "matched_requirements": ["..."],
+  "missing_requirements": ["..."],
+  "summary": "..."
+}}

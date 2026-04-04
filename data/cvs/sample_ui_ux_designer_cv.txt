@@ -1,0 +1,50 @@
+Lina Haddad
+UI/UX Designer
+
+Phone: +90 555 111 22 33
+Location: Istanbul, Türkiye.
+Email: lina.haddad@yahoo.com
+
+Summary:
+UI/UX Designer with 3+ years of experience in digital platforms, user-focused design, and data-driven optimization. Skilled in creating intuitive user journeys, improving conversion rates, and designing user-centered experiences across web and mobile platforms. Strong background in analytics, usability improvements, and cross-functional collaboration.
+
+Experience:
+- Digital Marketing Manager at BrightCart (Feb 2025 - Present)
+  Designed and optimized landing pages and user flows to improve user engagement and conversion rates.
+  Collaborated with developers and stakeholders to enhance website usability and performance.
+  Conducted A/B testing to improve UI elements and user experience outcomes.
+  Analyzed user behavior data to identify friction points and improve navigation structure.
+- Performance Marketing Specialist at Nova Reach (Mar 2023 - Jan 2025)
+  Built dashboards to track user behavior and conversion metrics, informing UX improvements.
+  Optimized campaign landing pages based on usability insights and user journey analysis.
+  Supported cross-functional teams with data insights to improve user engagement.
+  Contributed to improving user interaction flow and overall digital experience.
+
+Education:
+Istanbul Bilgi University
+Bachelor's Degree in Communication Design
+
+Skills:
+UI/UX Design:
+User Research
+Wireframing
+Prototyping
+User Flows
+Usability Testing
+Information Architecture
+
+Tools:
+Figma
+Adobe XD
+Sketch
+
+UX & Analytics:
+A/B Testing
+Conversion Optimization
+User Behavior Analysis
+Analytics Dashboards
+
+Other Skills:
+Problem Solving
+Collaboration
+Agile Workflow

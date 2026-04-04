@@ -1,10 +1,16 @@
 You are an HR interviewer.
 
-Based on this candidate profile:
-
+Candidate profile:
 {profile}
 
-Generate 5 behavioral interview questions.
+Job requirements:
+{job_requirements}
+
+Screening summary:
+{evaluation_summary}
+
+Generate 5 interview questions for a shortlisted candidate.
+Focus on validating the required skills and the candidate's fit for this specific job.
 
 Return ONLY valid JSON:
 
