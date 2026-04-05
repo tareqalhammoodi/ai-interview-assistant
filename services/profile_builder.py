@@ -3,9 +3,10 @@
 from pathlib import Path
 from utils.json_utils import parse_json_object
 from models.candidate import CandidateProfile
-from model_client import call_model
+from services.model_client import call_model
 
-PROMPT_PATH = Path(__file__).resolve().parent / "prompts" / "extract_profile.txt"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PROMPT_PATH = PROJECT_ROOT / "prompts" / "extract_profile.txt"
 
 def build_candidate_profile(cv_text: str) -> CandidateProfile:
     # Extract a candidate profile from CV text and validate the JSON output.

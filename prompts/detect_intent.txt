@@ -1,6 +1,6 @@
 You are classifying a candidate's terminal input during an interview.
 
-Choose exactly one intent:
+Choose exactly one intent from this list:
 - repeat
 - clarify
 - skip
@@ -14,8 +14,8 @@ Rules:
 - "exit" means the user wants to end the interview.
 - "answer" means the user is answering the question, even if the answer is short.
 
-Return ONLY valid JSON in this format:
+Return ONLY valid JSON in this exact format:
 {{"intent":"answer"}}
 
-User input:
+Candidate input:
 {user_input}

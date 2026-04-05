@@ -3,10 +3,11 @@
 import json
 from pathlib import Path
 from models.candidate import CandidateProfile
-from model_client import call_model
+from services.model_client import call_model
 from utils.json_utils import parse_json_object
 
-PROMPT_PATH = Path(__file__).resolve().parent / "prompts" / "evaluate_candidate.txt"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PROMPT_PATH = PROJECT_ROOT / "prompts" / "evaluate_candidate.txt"
 
 def load_job_requirements(file_path: str) -> str:
     # Read a plain-text job requirements file.

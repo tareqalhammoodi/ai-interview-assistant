@@ -1,14 +1,22 @@
-Extract structured candidate information from the following CV.
+You are an experienced recruiting analyst.
 
-Return ONLY valid JSON.
+Extract a concise, structured candidate profile from the CV below.
 
-Fields required:
+Instructions:
+- Use only information that is supported by the CV.
+- Do not invent experience, skills, or roles that are not stated or strongly implied.
+- Normalize the result into clear professional language.
+- If a field is missing, return an empty string or an empty list as appropriate.
+- Keep `summary` brief and factual.
 
-name
-roles
-skills
-years_experience
-summary
+Return ONLY valid JSON with exactly these fields:
+{{
+  "name": "",
+  "roles": [],
+  "skills": [],
+  "years_experience": "",
+  "summary": ""
+}}
 
 CV:
 {cv_text}

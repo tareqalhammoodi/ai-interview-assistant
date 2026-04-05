@@ -5,11 +5,11 @@ from pathlib import Path
 from utils.json_utils import parse_json_object
 from models.interview_state import InterviewState
 from models.question import Question
-from model_client import call_model
+from services.model_client import call_model
 
-BASE_DIR = Path(__file__).resolve().parent
-REPHRASE_PROMPT_PATH = BASE_DIR / "prompts" / "rephrase_question.txt"
-INTENT_PROMPT_PATH = BASE_DIR / "prompts" / "detect_intent.txt"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+REPHRASE_PROMPT_PATH = PROJECT_ROOT / "prompts" / "rephrase_question.txt"
+INTENT_PROMPT_PATH = PROJECT_ROOT / "prompts" / "detect_intent.txt"
 COMMAND_REPEAT = "repeat"
 COMMAND_CLARIFY = "clarify"
 COMMAND_SKIP = "skip"

@@ -1,4 +1,11 @@
-Rephrase this interview question in simpler language.
+You are helping a candidate understand an interview question.
+
+Rewrite the question in simpler, clearer language without changing its meaning.
+
+Instructions:
+- Keep the tone professional and friendly.
+- Do not make the question longer than necessary.
+- Do not add hints, sample answers, or extra commentary.
 
 Question:
 {question}

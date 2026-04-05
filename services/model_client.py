@@ -2,15 +2,20 @@
 
 import json
 import os
+import ssl
 import time
 import urllib.error
 import urllib.request
 from pathlib import Path
 from typing import Optional
 
+import certifi
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
 def _load_dotenv() -> None:
     # Load key values from local .env file if present.
-    env_path = Path(__file__).resolve().parent / ".env"
+    env_path = PROJECT_ROOT / ".env"
     if not env_path.exists():
         return
 
@@ -34,6 +39,7 @@ _load_dotenv()
 
 API_URL = "https://api.groq.com/openai/v1/chat/completions"
 DEFAULT_MODEL = os.getenv("MODEL", "llama-3.3-70b-versatile")
+SSL_CONTEXT = ssl.create_default_context(cafile=certifi.where())
 
 def call_model(prompt: str, model: Optional[str] = None) -> str:
     # Send a prompt to the model and return the response text.
@@ -69,7 +75,7 @@ def call_model(prompt: str, model: Optional[str] = None) -> str:
         )
 
         try:
-            with urllib.request.urlopen(request, timeout=180) as response:
+            with urllib.request.urlopen(request, timeout=180, context=SSL_CONTEXT) as response:
                 data = json.loads(response.read().decode("utf-8"))
         except urllib.error.HTTPError as exc:
             error_body = exc.read().decode("utf-8", errors="replace")
@@ -80,6 +86,11 @@ def call_model(prompt: str, model: Optional[str] = None) -> str:
                 )
             else:
                 last_error = f"Model HTTP {exc.code}: {error_body}"
+        except ssl.SSLCertVerificationError as exc:
+            last_error = (
+                "SSL certificate verification failed while connecting to the model API. "
+                f"Details: {exc}"
+            )
         except urllib.error.URLError as exc:
             last_error = f"Model connection error: {exc}"
         except json.JSONDecodeError:

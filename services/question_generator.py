@@ -5,9 +5,10 @@ from pathlib import Path
 from utils.json_utils import parse_json_object
 from models.candidate import CandidateProfile
 from models.question import Question
-from model_client import call_model
+from services.model_client import call_model
 
-PROMPT_PATH = Path(__file__).resolve().parent / "prompts" / "generate_questions.txt"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PROMPT_PATH = PROJECT_ROOT / "prompts" / "generate_questions.txt"
 
 def generate_questions(
     profile: CandidateProfile,
@@ -29,7 +30,7 @@ def generate_questions(
         raise ValueError("Questions response must include a 'questions' list.")
 
     questions = [Question.from_dict(item) for item in questions_data]
-    if len(questions) != 5:
-        raise ValueError("Model must return exactly 5 interview questions.")
+    if len(questions) != 10:
+        raise ValueError("Model must return exactly 10 interview questions.")
 
     return questions
